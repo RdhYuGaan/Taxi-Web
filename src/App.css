@@ -36,3 +36,233 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/Header.css */
+
+.header {
+  background-color: #f3f3f3;
+  padding: 5px;
+  text-align: center;
+}
+
+.navbar {
+  display:flexbox;
+  justify-content: center;
+}
+
+
+.nav-list {
+  list-style-type:none;
+  padding: 0;
+ 
+
+ }
+
+ .ul{
+  display:flex;
+  justify-content: center;
+  list-style: none;
+margin: 0 2px;
+align-items: center;
+justify-content: center;
+
+ }
+
+.nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+ padding: 10px;
+margin: 5px;
+
+
+}
+.ul li{
+  margin: 0px 10px;
+ 
+}
+
+.nav a:hover {
+  text-decoration:none;
+}
+
+/* src/About.css */
+
+.about-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.about-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
+/* src/Services.css */
+
+.Servicecontainer {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.Servicecontainer h1 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Servicelist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Serviceitem {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+}
+
+.Serviceitem h2 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.Serviceitem p {
+  color: #666;
+  line-height: 1.5;
+}
+
+
+/* src/Contact.css */
+
+.contactcontainer {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.contactcontainer h1 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formgroup label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.formgroup input,
+.formgroup textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formgroup textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submitbutton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitbutton:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* src/Home.css */
+
+.homecontainer {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.herosection {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.herosection h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.herosection p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.ctabutton {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  color: #282c34;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ctabutton:hover {
+  background-color: #21a1f1;
+}
+
+.introsection,
+.featuredsection {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.featuredsection h2 {
+  margin-bottom: 20px;
+}
+
+.featuredcontent {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.serviceitem {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
