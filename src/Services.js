@@ -8,7 +8,7 @@ function Services(){
             Our Services</h1>
             <div className="Servicelist">
                 <div className="Serviceitem">
-                <h2>Service One</h2>
+                <h2> Vehical Booking</h2>
           <p>
             Description of Service One. This could include what the service is, how it works, and any other relevant details.
           </p>
