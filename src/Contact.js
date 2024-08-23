@@ -45,8 +45,21 @@ function Contact() {
             required
           />
         </div>
+        
         <div className="formgroup">
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email">Contact Number:</label>
+          <input
+            type="Contact Number"
+            id="Contact Number"
+            name="Contact Number"
+            value={formData.Contact_Number}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="formgroup">
+          <label htmlFor="email">e mail:</label>
           <input
             type="email"
             id="email"
@@ -56,6 +69,9 @@ function Contact() {
             required
           />
         </div>
+        
+
+
         <div className="formgroup">
           <label htmlFor="message">Message:</label>
           <textarea
