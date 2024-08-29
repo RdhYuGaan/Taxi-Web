@@ -68,6 +68,9 @@ justify-content: center;
 
  }
 
+ .ul login{
+  color: #61dafb;
+ }
 .nav a {
   color: #333;
   text-decoration: none;
@@ -76,7 +79,15 @@ justify-content: center;
 margin: 5px;
 
 
+
 }
+
+
+
+.login:hover {
+  background-color: #0056b3;
+}
+
 .ul li{
   margin: 0px 10px;
  
@@ -85,6 +96,9 @@ margin: 5px;
 .nav a:hover {
   text-decoration:none;
 }
+
+
+
 
 /* src/About.css */
 

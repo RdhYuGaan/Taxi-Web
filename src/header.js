@@ -14,9 +14,10 @@ function Header(){
                     <li className="nav"><a href="/about"> ABOUT</a></li>
                     <li className="nav"><a href="/services"> SERVICES</a></li>
                     <li className="nav"><a href="/contact">CONTACT US</a></li>
-                   <button> <li className="nav"><a href="/contact">login</a></li> </button> 
+                    <button classname="login"><a href="/login">LOGIN</a></button> 
                    
                 </ul>
+                
             </nav>
 
         </header>
